@@ -31,6 +31,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 600px;
+ }
+
+ .big-one {
+   background-color: #1F2937;
  }
 
  .text-holder, .image-placeholder {
@@ -47,6 +52,9 @@
  .image-placeholder {
     justify-content: center;
     align-items: center;
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #E5E7EB;
  }
 
  .content-holder {
@@ -58,17 +66,38 @@
     display: flex;
     margin: 0;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 900px;
+    height: 500px;
+    gap: 100px;
+ }
+
+ .one {
+   font-size: 48px;
+   font-weight: bolder;
+   color: #F9FAF8;
+ }
+
+ .two, a {
+   font-size: 18px;
+   color: #E5E7EB;
  }
 
  .logo {
     display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
  }
 
  .hero-button {
-   display: flex;
+   display: inline-block;
+   width: 90px;
+   color: #F9FAF8;
+   background-color: #3382F6;
+   border: none;
+   border-radius: 5px;
+   padding: 3px;
+   font-family: inherit;
  }
 
  
