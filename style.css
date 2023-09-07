@@ -127,10 +127,13 @@
    align-items: center;
    justify-content: center;
    margin: 30px;
+   font-size: 36px;
+   font-weight: bolder;
+   color: #1F2937;
  }
 
  .big-two {
-   height: 500px;
+   height: 400px;
    justify-content: flex-start;
  }
 
@@ -138,6 +141,37 @@
    display: flex;
    flex-wrap: wrap;
    text-align: center;
+   font-weight: lighter;
+ }
+
+ .quote-holder {
+   display: flex;
+   flex-direction: column;
+   width: 700px;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .quote, .customer {
+   display: flex;
+   flex-wrap: wrap;
+   width: 700px;
+   color: #1F2937;
+ }
+
+ .quote {
+   font-size:36px ;
+   font-weight: lighter;
+   font-style: italic;
+   
+ }
+
+ .customer {
+   justify-content: flex-end;
+ }
+
+ .big-three {
+   background-color:#E5E7EB;
  }
 
  
