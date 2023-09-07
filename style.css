@@ -100,6 +100,46 @@
    font-family: inherit;
  }
 
+ .card-container {
+   display: flex;
+   gap: 40px;
+ }
+
+ .holder {
+   display: flex;
+   flex-direction: column;
+   width:160px;
+ }
+
+ .card {
+   display: flex;
+   width: 150px;
+   height:150px ;
+   border-style: solid;
+   border-color: #3382F6;
+   border-width: 3px;
+   border-radius: 20px;
+ }
+
+ .text {
+   display: flex;
+   width: 500px;
+   align-items: center;
+   justify-content: center;
+   margin: 30px;
+ }
+
+ .big-two {
+   height: 500px;
+   justify-content: flex-start;
+ }
+
+ .card-text {
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+ }
+
  
 
  
